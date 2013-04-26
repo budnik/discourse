@@ -5,16 +5,16 @@
 en:
   js:
     share:
-      topic: 'поделиться ссылкой на данную тему'
-      post: 'поделиться ссылкой на данное сообщение'
+      topic: 'поделиться ссылкой на эту тему'
+      post: 'поделиться ссылкой на эту сообщение'
       close: 'закрыть'
       twitter: 'поделиться ссылкой через Twitter'
       facebook: 'поделиться ссылкой через Facebook'
       google+: 'поделиться ссылкой через Google+'
-      email: 'послать ссылку по почте'
+      email: 'поделиться ссылкой по почте'
 
-    edit: 'отредактировать название и категорию данной темы'
-    not_implemented: "Извините, данная функция еще не реализована!"
+    edit: 'отредактировать название и категорию этой темы'
+    not_implemented: "Извините, эта функция еще не реализована!"
     no_value: "Нет"
     yes_value: "Да"
     of_value: "of"
@@ -35,13 +35,13 @@ en:
       title: "Похожие темы"
 
     bookmarks:
-      not_logged_in: "Пожалуйста, войдите на форум для выполнения данного действия."
+      not_logged_in: "Пожалуйста, войдите на форум для выполнения этого действия."
       created: "Сообщение добавлено в закладки."
       not_bookmarked: "Сообщение прочитано. Щелкните, чтобы добавить на него закладку."
       last_read: "Последнее прочитанное вами сообщение."
 
     new_topics_inserted: "{{count}} new topics."
-    show_new_topics: "Click to show."
+    show_new_topics: "Показать."
     preview: "предпросмотр"
     cancel: "отмена"
 
@@ -57,7 +57,7 @@ en:
       title: "Пользователь"
       mute: Mute
       edit: Edit Preferences
-      download_archive: "download archive of my posts"
+      download_archive: "загрузить архив своих сообщений"
       private_message: "Личное сообщение"
       private_messages: "Сообщения"
       activity_stream: "Активность"
@@ -66,7 +66,7 @@ en:
       invited_by: "Приглашен"
       trust_level: "Уровень доверия"
       external_links_in_new_tab: "Открывать все внешние ссылки в новой вкладке"
-      enable_quoting: "Enable quote reply for highlighted text"
+      enable_quoting: "Ответить цитированием для выделенного текста"
 
       change_password:
         action: "изменить"
@@ -78,14 +78,14 @@ en:
         action: "изменить"
         title: "Изменить имя пользователя"
         confirm: "Изменение имени пользователя может повлечь за собой определенные последствия. Вы действительно хотите изменить имя пользователя?"
-        taken: "К сожалению, данное имя пользователя уже занято."
+        taken: "К сожалению, это имя пользователя уже занято."
         error: "При изменении имени пользователя произошла ошибка."
         invalid: "Некорректное имя пользователя. Оно может состоять только из цифр и латинских букв"
       change_email:
         action: 'изменить'
         title: "Изменить email адрес"
-        taken: "К сожалению, данный email адрес нельзя использовать."
-        error: "При изменении email адреса произошла ошибка. Возможно, данный email адрес уже используется?"
+        taken: "К сожалению, этот email адрес нельзя использовать."
+        error: "При изменении email адреса произошла ошибка. Возможно, этот email адрес уже используется?"
         success: "На указанный email адрес отправлено письмо с инструкциями. Проверьте почту и подтвердите email адрес."
 
       email:
@@ -112,7 +112,7 @@ en:
         too_short: "Имя пользователя слишком короткое."
         too_long: "Имя пользователя слишком длинное."
         checking: "Проверяю доступность имени пользователя..."
-        enter_email: 'Username found. Enter matching email.'
+        enter_email: 'Имя пользователя найдено. Введите соответствующий ему email адрес.'
 
       password_confirmation:
         title: "Пароль еще раз"
@@ -151,24 +151,24 @@ en:
         never: "никогда"
         always: "всегда"
         after_n_seconds:
-          one: "after 1 second"
-          other: "after {{count}} seconds"
+          one: "через 1 секунду"
+          other: "через {{count}} секунд"
         after_n_minutes:
-          one: "after 1 minute"
-          other: "after {{count}} minutes"
+          one: "через 1 минуту"
+          other: "через {{count}} минут"
 
       invited:
         title: "Приглашения"
         user: "Invited User"
-        none: "{{username}} hasn't invited any users to the site."
+        none: "{{username}} не пригласил ни одного пользователя на форум."
         redeemed: "Redeemed Invites"
         redeemed_at: "Redeemed At"
         pending: "Pending Invites"
         topics_entered: "Topics Entered"
-        posts_read_count: "Posts Read"
+        posts_read_count: "Прочитано сообщений"
         rescind: "Отозвать приглашение"
         rescinded: "Приглашение отозвано"
-        time_read: "Read Time"
+        time_read: "Время чтения"
         days_visited: "Days Visited"
         account_age_days: "Дней с момента регистрации"
 
@@ -187,20 +187,20 @@ en:
         all: "All"
 
       stream:
-        posted_by: "Posted by"
-        sent_by: "Sent by"
+        posted_by: "Опубликовано"
+        sent_by: "Отправлено"
         private_message: "личное сообщение"
-        the_topic: "the topic"
+        the_topic: "тема"
 
     loading: "Загрузка..."
     close: "Закрыть"
     learn_more: "найти еще..."
 
-    year: 'year'
+    year: 'год'
     year_desc: 'создано тем за последние 365 дней'
-    month: 'month'
+    month: 'месяц'
     month_desc: 'создано тем за последние 30 дней'
-    week: 'week'
+    week: 'неделя'
     week_desc: 'создано тем за последние 7 дней'
 
     first_post: Первое сообщение
@@ -209,11 +209,11 @@ en:
     last_post: Последнее сообщение
 
     best_of:
-      title: "Best Of"
-      enabled_description: You are currently viewing the "Best Of" view of this topic.
-      description: "There are <b>{{count}}</b> posts in this topic. That's a lot! Would you like to save time by switching your view to show only the posts with the most interactions and responses?"
-      enable: 'Switch to "Best Of" view'
-      disable: 'Cancel "Best Of"'
+      title: "Наиболее популярное"
+      enabled_description: Вы сейчас просматриваете наиболее популярные сообщения этой темы.
+      description: "В этой теме <b>{{count}}</b> сообщений. Это очень много. Хотите сэкономить время и просмотреть только сообщения, которые привлекли к себе наиболее внимание и ответов?"
+      enable: 'Просмотреть наиболее популярные сообщения'
+      disable: 'Переключиться в режим просмотра всех сообщений'
 
     private_message_info:
       title: "Частная беседа"
@@ -232,7 +232,7 @@ en:
       failed: "Что-то пошло не так, возможно этот email адрес уже зарегистрирован, попробуйте восстановить пароль."
 
     forgot_password:
-      title: "Forgot Password"
+      title: "Забыли пароль?"
       action: "Я забыл свой пароль"
       invite: "Введите ваше имя пользователя или email адрес, и мы отправим вам специальное письмо."
       reset: "Сброс пароля"
@@ -246,7 +246,7 @@ en:
       error: "Непредвиденная ошибка"
       reset_password: 'Сброс пароля'
       logging_in: "Осуществляется вход..."
-      or: "Or"
+      or: "или"
       authenticating: "Проверка подлинности..."
       awaiting_confirmation: "Ваша учетная запись требует активации. Для того, чтобы получить активационное письмо повторно, воспользуйтесь опцией сброса пароля."
       awaiting_approval: "Ваша учетная запись еще не одобрена модератором. Сразу после одобрения, вы получите email сообщение."
@@ -273,20 +273,20 @@ en:
         message: "Вход с помощью учетной записи Mozilla Persona (всплывающие окна должны быть разрешены)"
 
     composer:
-      posting_not_on_topic: "Вы отвечаете в теме \"{{title}}\", но в данный момент просматриваете другую тему."
+      posting_not_on_topic: "Вы отвечаете в теме \"{{title}}\", но в этот момент просматриваете другую тему."
       saving_draft_tip: "сохранение"
       saved_draft_tip: "сохранено"
       saved_local_draft_tip: "сохранено локально"
       similar_topics: "Ваша тема похожа на..."
-      drafts_offline: "drafts offline"
+      drafts_offline: "offline черновики"
 
       min_length:
-        need_more_for_title: "{{n}} to go for the title"
-        need_more_for_reply: "{{n}} to go for the reply"
+        need_more_for_title: "минимум {{n}} символов для заголовка"
+        need_more_for_reply: "минимум {{n}} символов для сообщения"
 
-      save_edit: "Save Edit"
-      reply_original: "Reply on Original Topic"
-      reply_here: "Reply Here"
+      save_edit: "Сохранить изменение"
+      reply_original: "Ответ в первоначальной теме"
+      reply_here: "Ответить в текущей теме"
       reply: "Ответ"
       cancel: "Отмена"
       create_topic: "Создать тему"
@@ -294,7 +294,7 @@ en:
 
       users_placeholder: "Добавить пользователя"
       title_placeholder: "Напечатайте здесь заголовок. В двух словах в чем суть обсуждения?"
-      reply_placeholder: "Type here. Use Markdown or BBCode to format. Drag or paste an image to upload it."
+      reply_placeholder: "Печатайте здесь. Для форматирования используйте Markdown и BBCode. Перетяните или вставьте изображение, чтобы загрузить его на сервер."
       view_new_post: "Посмотреть созданное вами сообщение."
       saving: "Сохранение..."
       saved: "Сохранено!"
@@ -413,7 +413,7 @@ en:
       loading: 'Загружаю тему...'
       invalid_access:
         title: "Topic is private"
-        description: "К сожалению, у вас нет прав доступа к данной теме!"
+        description: "К сожалению, у вас нет прав доступа к этой теме!"
       server_error:
         title: "Не удалось загрузить тему"
         description: "К сожалению, мы не смогли загрузить эту тему, возможно из-за проблемы подключения. Пожалуйста, попробуйте еще раз. Если проблема повторится, пожалуйста, сообщите нам об этом."
@@ -424,8 +424,8 @@ en:
       new_posts: "there are {{new_posts}} new posts in this topic since you last read it"
 
       likes:
-        one: "данная тема нравится одному участнику"
-        other: "данная тема нравится {{count}} участникам"
+        one: "эта тема нравится одному участнику"
+        other: "эта тема нравится {{count}} участникам"
       back_to_list: "Вернуться к списку тем"
       options: "Опции темы"
       show_links: "показывать ссылки в этой теме"
@@ -451,10 +451,10 @@ en:
       notifications:
         title: ''
         reasons:
-          "3_2": 'Вы будете получать уведомления, потому что вы наблюдаете за данной темой.'
-          "3_1": 'Вы будете получать уведомления, потому что вы создали данную тему.'
-          "3": 'Вы будете получать уведомления, потому что вы наблюдаете за данной темой.'
-          "2_4": 'Вы будете получать уведомления, потому что вы ответили в данной теме.'
+          "3_2": 'Вы будете получать уведомления, потому что вы наблюдаете за этой темой.'
+          "3_1": 'Вы будете получать уведомления, потому что вы создали эту тему.'
+          "3": 'Вы будете получать уведомления, потому что вы наблюдаете за этой темой.'
+          "2_4": 'Вы будете получать уведомления, потому что вы ответили в этой теме.'
           "2_2": 'You will receive notifications because you are tracking this topic.'
           "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
           "1": 'You will be notified only if someone mentions your @name or replies to your post.'
@@ -490,7 +490,7 @@ en:
 
       reply:
         title: 'Ответить'
-        help: 'начать составлять сообщение в данной теме'
+        help: 'начать составлять сообщение в этой теме'
 
       clear_pin:
         title: "Отлепить"
@@ -517,7 +517,7 @@ en:
         email: "Мы отправим вашему другу краткое письмо, и он сможет ответить в этой теме одним щелчком мыши."
         email_placeholder: 'email адрес'
         success: "Thanks! We mailed out an invitation to <b>{{email}}</b>. We'll let you know when they redeem your invitation. Check the invitations tab on your user page to keep track of who you've invited."
-        error: "К сожалению, мы не смогли пригласить данного человека. Возможно, он уже пользователь форума?"
+        error: "К сожалению, мы не смогли пригласить этого человека. Возможно, он уже пользователь форума?"
 
       login_reply: 'Войдите на форум, чтобы ответить на сообщение'
 
@@ -537,7 +537,7 @@ en:
         of_n_posts:
           one: "of 1 in the topic"
           other: "of {{count}} in the topic"
-        cancel: "Показать все сообщения в данной теме еще раз."
+        cancel: "Показать все сообщения в этой теме еще раз."
 
       move_selected:
         title: "Переместить отмеченные сообщения"
@@ -588,14 +588,14 @@ en:
         save: 'Save Options'
 
       controls:
-        reply: "начать составление ответа на данное сообщение"
+        reply: "начать составление ответа на это сообщение"
         like: "мне нравится"
         edit: "изменить сообщение"
         flag: "flag this post for attention or send a notification about it"
         delete: "удалить сообщение"
         undelete: "отменить удаление"
         share: "поделиться ссылкой на сообщение"
-        bookmark: "добавить данное сообщение в закладки"
+        bookmark: "добавить это сообщение в закладки"
         more: "Еще"
 
       actions:
@@ -717,10 +717,10 @@ en:
       foreground_color: "Цвет переднего плана"
       name_placeholder: "Should be short and succinct."
       color_placeholder: "Any web color"
-      delete_confirm: "Вы действительно хотите удалить данную категорию?"
+      delete_confirm: "Вы действительно хотите удалить эту категорию?"
       delete_error: "Произошла ошибка при удалении категории."
       list: "Список категорий"
-      no_description: "Отсутствует описание данной категории."
+      no_description: "Отсутствует описание этой категории."
       change_in_category_topic: "Edit Description"
       hotness: "Hotness"
       already_used: 'Цвет уже используется другой категорией'
@@ -745,7 +745,7 @@ en:
 
     topic_statuses:
       locked:
-        help: "закрытая тема (в данной теме больше нельзя отвечать)"
+        help: "закрытая тема (в этой теме больше нельзя отвечать)"
       pinned:
         help: "прилепленная тема (будет показана в начале списка тем соответствующей категории)"
       archived:
@@ -905,7 +905,7 @@ en:
         title: 'Пользователи'
         create: 'Add Admin User'
         last_emailed: "Last Emailed"
-        not_found: "К сожалению, данный пользователь не зарегистрирован."
+        not_found: "К сожалению, этот пользователь не зарегистрирован."
         new: "New"
         active: "Active"
         pending: "Pending"
@@ -958,7 +958,7 @@ en:
         time_read: "Read Time"
         delete: "Удалить пользователя"
         delete_forbidden: "This user can't be deleted because there are posts. Delete all this user's posts first."
-        delete_confirm: "Вы действительно хотите permanently delete this user from the site? Данное действие необратимо!"
+        delete_confirm: "Вы действительно хотите permanently delete this user from the site? Это действие необратимо!"
         deleted: "Пользователь удален."
         delete_failed: "При удалении пользователя возникла ошибка. Для удаления пользователя необходимо прежде удалить все его сообщения."
 
