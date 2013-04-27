@@ -730,8 +730,8 @@ en:
       action: 'Пожаловаться'
       notify_action: 'Уведомить'
       cant: "К сожалению, на данный момент вы не можете пожаловаться на это сообщение."
-      custom_placeholder_notify_user: "Why does this post require you to speak to this user directly and privately? Be specific, be constructive, and always be kind."
-      custom_placeholder_notify_moderators: "Why does this post require moderator attention? Let us know specifically what you are concerned about, and provide relevant links where possible."
+      custom_placeholder_notify_user: "Почему это сообщение побудило вас обратиться к этому пользователю напрямую и в частном порядке? Будьте конкретны, будьте конструктивны и всегда доброжелательны."
+      custom_placeholder_notify_moderators: "Почему это сообщение побудило вас обратиться с жалобой к модератору? Сообщите нам конкретно, чем вы обеспокоены и предоставьте соответствующие ссылки, где это возможно."
       custom_message:
         at_least: "введите как минимум {{n}} знаков"
         more: "{{n}} еще..."
