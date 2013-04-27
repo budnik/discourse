@@ -23,7 +23,7 @@ en:
     age: "Age"
     last_post: "Последнее сообщение"
     admin_title: "Админ"
-    flags_title: "Flags"
+    flags_title: "Жалобы"
     show_more: "показать еще"
     links: Ссылки
     faq: "FAQ"
@@ -599,7 +599,7 @@ en:
         more: "Еще"
 
       actions:
-        flag: 'Flag'
+        flag: 'Жалоба'
         clear_flags:
           one: "Очистить жалобу"
           other: "Очистить жалобы"
