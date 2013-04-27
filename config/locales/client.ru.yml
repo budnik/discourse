@@ -20,7 +20,7 @@ en:
     of_value: "of"
     generic_error: "Извините, произошла ошибка."
     log_in: "Войти"
-    age: "Age"
+    age: "Возраст"
     last_post: "Последнее сообщение"
     admin_title: "Админ"
     flags_title: "Жалобы"
@@ -83,17 +83,17 @@ en:
         invalid: "Некорректное имя пользователя. Оно может состоять только из цифр и латинских букв"
       change_email:
         action: 'изменить'
-        title: "Изменить email адрес"
-        taken: "К сожалению, этот email адрес нельзя использовать."
-        error: "При изменении email адреса произошла ошибка. Возможно, этот email адрес уже используется?"
-        success: "На указанный email адрес отправлено письмо с инструкциями. Проверьте почту и подтвердите email адрес."
+        title: "Изменить адрес электронной почты"
+        taken: "К сожалению, этот адрес электронной почты нельзя использовать."
+        error: "При изменении адреса электронной почты произошла ошибка. Возможно, этот адрес электронной почты уже используется?"
+        success: "На указанный адрес электронной почты отправлено письмо с инструкциями. Проверьте почту и подтвердите адрес электронной почты."
 
       email:
-        title: "Email адрес"
-        instructions: "Ваш email адрес всегда скрыт."
+        title: "Адрес электронной почты"
+        instructions: "Ваш адрес электронной почты всегда скрыт."
         ok: "Отлично, потребуется активация."
-        invalid: "Пожалуйста, введите действительный email адрес."
-        authenticated: "Email адрес подтвержден {{provider}}."
+        invalid: "Пожалуйста, введите действительный адрес электронной почты."
+        authenticated: "Адрес электронной почты подтвержден {{provider}}."
         frequency: "В случае вашего отсутствия на форуме, вы будете получать уведомления только о непрочитанных вами сообщениях."
 
       name:
@@ -106,19 +106,19 @@ en:
         instructions: "Должно быть уникальным, без пробелов. Пользователи могут упоминать вас как @username."
         short_instructions: "Пользователи могут упоминать вас как @{{username}}."
         available: "Доступно."
-        global_match: "Email matches the registered username."
+        global_match: "Электронная почта соответствует имени зарегистрированного пользователя."
         global_mismatch: "Занято. Попробуйте {{suggestion}}?"
         not_available: "Недоступно. Попробуйте {{suggestion}}?"
         too_short: "Имя пользователя слишком короткое."
         too_long: "Имя пользователя слишком длинное."
         checking: "Проверяю доступность имени пользователя..."
-        enter_email: 'Имя пользователя найдено. Введите соответствующий ему email адрес.'
+        enter_email: 'Имя пользователя найдено. Введите соответствующий ему адрес электронной почты.'
 
       password_confirmation:
         title: "Пароль еще раз"
 
       last_posted: "Последнее сообщение"
-      last_emailed: "Last Emailed"
+      last_emailed: "Последнее письмо"
       last_seen: "Последнее посещение"
       created: "Зарегистрирован"
       log_out: "Выйти"
@@ -130,8 +130,8 @@ en:
         weekly: "еженедельно"
         bi_weekly: "каждые две недели"
 
-      email_direct: "Получение email уведомлений об ответах на ваши сообщения, цитировании вас или упоминании вашего @username"
-      email_private_messages: "Получение email уведомлений о личных сообщениях"
+      email_direct: "Получение уведомлений по электронной почте об ответах на ваши сообщения, цитировании вас или упоминании вас по @username"
+      email_private_messages: "Получение уведомлений по электронной почте о личных сообщениях"
 
       other_settings: "Прочее"
 
@@ -181,7 +181,7 @@ en:
         title: "Последний IP адрес"
       avatar:
         title: "Аватара"
-        instructions: "С помощью сервиса <a href='https://gravatar.com' target='_blank'>Gravatar</a> можно изменить аватар для вашего email адреса"
+        instructions: "С помощью сервиса <a href='https://gravatar.com' target='_blank'>Gravatar</a> можно изменить аватар для вашего адреса электронной почты."
 
       filters:
         all: "Все"
@@ -219,7 +219,7 @@ en:
       title: "Частная беседа"
       invite: "Пригласить других..."
 
-    email: 'Email'
+    email: 'Адрес электронной почты'
     username: 'Имя пользователя'
     last_seen: 'Последнее посещение'
     created: 'Регистрация'
@@ -229,27 +229,27 @@ en:
       title: "Создать учетную запись"
       action: "Создать!"
       invite: "Еще не зарегистрированы?"
-      failed: "Что-то пошло не так, возможно этот email адрес уже зарегистрирован, попробуйте восстановить пароль."
+      failed: "Что-то пошло не так, возможно этот адрес электронной почты уже зарегистрирован, попробуйте восстановить пароль."
 
     forgot_password:
       title: "Забыли пароль?"
       action: "Я забыл свой пароль"
-      invite: "Введите ваше имя пользователя или email адрес, и мы отправим вам специальное письмо."
+      invite: "Введите ваше имя пользователя или адрес электронной почты, и мы отправим вам специальное письмо."
       reset: "Сброс пароля"
-      complete: "Письмо с инструкциями по изменению пароля отправлено на ваш email адрес."
+      complete: "Письмо с инструкциями по изменению пароля отправлено на ваш адрес электронной почты."
 
     login:
       title: "Войти"
       username: "Имя пользователя"
       password: "Пароль"
-      email_placeholder: "email адрес или имя пользователя"
+      email_placeholder: "адрес электронной почты или имя пользователя"
       error: "Непредвиденная ошибка"
       reset_password: 'Сброс пароля'
       logging_in: "Осуществляется вход..."
       or: "или"
       authenticating: "Проверка подлинности..."
       awaiting_confirmation: "Ваша учетная запись требует активации. Для того, чтобы получить активационное письмо повторно, воспользуйтесь опцией сброса пароля."
-      awaiting_approval: "Ваша учетная запись еще не одобрена модератором. Сразу после одобрения, вы получите email сообщение."
+      awaiting_approval: "Ваша учетная запись еще не одобрена модератором. Сразу после одобрения, вы получите сообщение по электронной почте."
       not_activated: "Прежде, чем вы сможете воспользоваться новой учетной записью, вам необходимо ее активировать. Мы отправили вам на почту <b>{{sentTo}}</b> подробные инструкции, как это делать."
       resend_activation_email: "Щелкните здесь, чтобы мы повторно выслали вам письмо для активации вашей учетной записи."
       sent_activation_email_again: "По адресу <b>{{currentEmail}}</b> повторно отправлено письмо с кодом активации. Доставка сообщения может занять несколько минут, также проверьте папку Spam."
@@ -504,39 +504,39 @@ en:
 
       invite_private:
         title: 'Пригласить на частную беседу'
-        email_or_username: "Invitee's Email or Username"
-        email_or_username_placeholder: "email адрес или имя пользователя"
+        email_or_username: "адрес электронной почты или имя пользователя того, кого вы хотите пригласить"
+        email_or_username_placeholder: "адрес электронной почты или имя пользователя"
         action: "Пригласить"
         success: "Приглашение пользователю на частную беседу было выслано."
         error: "К сожалению, в процессе приглашения пользователя произошла ошибка."
 
       invite_reply:
         title: 'Пригласите ваших друзей поучаствовать в обсуждении'
-        action: 'Выслать приглашение по email'
+        action: 'Выслать приглашение по электронной почте'
         help: 'отправьте приглашения своим друзьям, чтобы они тоже смогли поучаствовать в обсуждении темы'
         email: "Мы отправим вашему другу краткое письмо, и он сможет ответить в этой теме одним щелчком мыши."
-        email_placeholder: 'email адрес'
-        success: "Thanks! We mailed out an invitation to <b>{{email}}</b>. We'll let you know when they redeem your invitation. Check the invitations tab on your user page to keep track of who you've invited."
+        email_placeholder: 'адрес электронной почты'
+        success: "Приглашение отправлено по адресу <b>{{email}}</b>. Мы вышлем вам уведомление, когда вашим приглашением воспользуются. Проверьте вкладку приглашения на вашей странице пользователя, чтобы видеть, кого вы пригласили."
         error: "К сожалению, мы не смогли пригласить этого человека. Возможно, он уже пользователь форума?"
 
       login_reply: 'Войдите на форум, чтобы ответить на сообщение'
 
       filters:
-        user: "You're viewing only {{n_posts}} {{by_n_users}}."
+        user: "Отображено только {{n_posts}} {{by_n_users}}."
         n_posts:
           one: "1 сообщение"
           other: "{{count}} сообщений"
         by_n_users:
-          one: "made by 1 specific user"
-          other: "made by {{count}} specific users"
+          one: "от одного пользователя"
+          other: "от {{count}} пользователей"
 
-        best_of: "You're viewing the {{n_best_posts}} {{of_n_posts}}."
+        best_of: "Отображено только {{n_best_posts}} {{of_n_posts}}."
         n_best_posts:
-          one: "1 best post"
-          other: "{{count}} best posts"
+          one: "1 лучшее"
+          other: "{{count}} лучших"
         of_n_posts:
-          one: "of 1 in the topic"
-          other: "of {{count}} in the topic"
+          one: "из 1 в теме"
+          other: "из {{count}} в теме"
         cancel: "Показать все сообщения в этой теме еще раз."
 
       move_selected:
@@ -633,7 +633,7 @@ en:
           off_topic: "Отмечена как off-topic"
           spam: "Отмечена как spam"
           inappropriate: "Отмечена как неуместная"
-          notify_moderators: "You flagged this for moderation"
+          notify_moderators: "Вы пожаловались модераторам"
           notify_user: "Вы начали частную беседу с этим пользователем"
           bookmark: "Сообщение добавлено в избранное"
           like: "Вам это нравится"
@@ -649,8 +649,8 @@ en:
             one: "Вы и еще 1 человек отметили это сообщение как неуместное"
             other: "Вы и еще {{count}} человек отметили это сообщение как неуместное"
           notify_moderators:
-            one: "You and 1 other flagged this for moderation"
-            other: "You and {{count}} other people flagged this for moderation"
+            one: "Вы и еще 1 человек пожаловались на это сообщение"
+            other: "Вы и еще {{count}} человек пожаловались на это сообщение"
           notify_user:
             one: "Вы и еще 1 человек начали частную беседу с этим пользователем"
             other: "Вы и еще {{count}} человек начали частную беседу с этим пользователем"
@@ -674,8 +674,8 @@ en:
             one: "1 человек отметил это сообщение как неуместное"
             other: "{{count}} человек отметили это сообщение как неуместное"
           notify_moderators:
-            one: "1 person flagged this for moderation"
-            other: "{{count}} people flagged this for moderation"
+            one: "1 человек пожаловался на это сообщение"
+            other: "{{count}} человек пожаловались на это сообщение"
           notify_user:
             one: "1 человек начал частную беседу с этим пользователем"
             other: "{{count}} человек начали частную беседу с этим пользователем"
@@ -715,7 +715,7 @@ en:
       badge_colors: "Цвета метки"
       background_color: "Цвет фона"
       foreground_color: "Цвет переднего плана"
-      name_placeholder: "Should be short and succinct."
+      name_placeholder: "Должно быть кратким и емким."
       color_placeholder: "Любой цвет из Веб-палитры"
       delete_confirm: "Вы действительно хотите удалить эту категорию?"
       delete_error: "Произошла ошибка при удалении категории."
@@ -739,7 +739,7 @@ en:
 
     topic_summary:
       title: "Topic Summary"
-      links_shown: "show all {{totalLinks}} links..."
+      links_shown: "показать все {{totalLinks}} ссылок..."
       clicks: "clicks"
       topic_link: "topic link"
 
@@ -777,10 +777,10 @@ en:
         help: "подборка популярных тем"
       favorited:
         title: "Избранное"
-        help: "topics you marked as favorites"
+        help: "темы, которые вы добавили в список избранных"
       read:
         title: "Прочитанное"
-        help: "прочитанные вами темы в обратном хронологическом порядке"
+        help: "темы, которые вас заинтересовали (в обратном хронологическом порядке)"
       categories:
         title: "Категории"
         title_in: "Категория - {{categoryName}}"
@@ -788,13 +788,13 @@ en:
       unread:
         title:
           zero: "Непрочтённое"
-          one: "Unread (1)"
-          other: "Unread ({{count}})"
+          one: "Непрочтённая (1)"
+          other: "Непрочтённых ({{count}})"
         help: "отслеживаемые темы с непрочитанными сообщениями"
       new:
         title:
           zero: "Новые"
-          one: "Новые (1)"
+          one: "Новая (1)"
           other: "Новые ({{count}})"
         help: "новые темы с момента вашего последнего посещения"
       posted:
@@ -845,7 +845,7 @@ en:
           30_days_ago: "30 дней назад"
           all: "All"
           view_table: "Просмотр в виде таблицы"
-          view_chart: "View as Bar Chart"
+          view_chart: "Просмотр в графическом виде"
 
       commits:
         latest_changes: "Последние изменения: пожалуйста, обновляйтесь чаще!"
@@ -890,13 +890,13 @@ en:
         sent_at: "Отправлено"
         email_type: "Email Type"
         to_address: "Получатель"
-        test_email_address: "email адрес для проверки"
+        test_email_address: "адрес электронной почты для проверки"
         send_test: "отправить тестовое сообщение"
         sent_test: "отправлено!"
 
       impersonate:
         title: "Проверить права пользователя"
-        username_or_email: "Имя пользователя или email адрес"
+        username_or_email: "Имя пользователя или адрес электронной почты"
         help: "Use this tool to impersonate a user account for debugging purposes."
         not_found: "Пользователь не найден."
         invalid: "Sorry, you may not impersonate that user."
