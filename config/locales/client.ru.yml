@@ -28,7 +28,7 @@ en:
     links: Ссылки
     faq: "FAQ"
     you: "Вы"
-    or: "or"
+    or: "или"
     now: "только что"
 
     suggested_topics:
@@ -55,7 +55,7 @@ en:
     user:
       profile: Профиль
       title: "Пользователь"
-      mute: Mute
+      mute: Приглушить
       edit: Изменить настройки
       download_archive: "загрузить архив своих сообщений"
       private_message: "Личное сообщение"
@@ -159,12 +159,12 @@ en:
 
       invited:
         title: "Приглашения"
-        user: "Invited User"
+        user: "Приглашенный пользователь"
         none: "{{username}} не пригласил ни одного пользователя на форум."
         redeemed: "Redeemed Invites"
         redeemed_at: "Redeemed At"
-        pending: "Pending Invites"
-        topics_entered: "Topics Entered"
+        pending: "Ожидающих приглашений"
+        topics_entered: "Просмотрено тем"
         posts_read_count: "Прочитано сообщений"
         rescind: "Отозвать приглашение"
         rescinded: "Приглашение отозвано"
@@ -175,7 +175,7 @@ en:
       password:
         title: "Пароль"
         too_short: "Пароль слишком короткий."
-        ok: "Отлично."
+        ok: "Пароль принят."
 
       ip_address:
         title: "Последний IP адрес"
@@ -333,7 +333,7 @@ en:
       toggler: "скрыть/показать панель редактирования"
 
     notifications:
-      title: "notifications of @name mentions, replies to your posts and topics, private messages, etc"
+      title: "уведомления об использовании @name в сообщениях, ответах на ваши сообщения и темы, личные сообщение и т.д."
       none: "На данный момент уведомлений нет."
       more: "посмотреть более ранние уведомления"
       mentioned: "<span title='mentioned' class='icon'>@</span> {{username}} {{link}}"
@@ -346,7 +346,7 @@ en:
       invited_to_private_message: "{{username}} пригласил вас на частную беседу: {{link}}"
       invitee_accepted: "<i title='принятое приглашение' class='icon icon-signin'></i> {{username}} принял ваше приглашение"
       moved_post: "<i title='перенесенное сообщение' class='icon icon-arrow-right'></i> {{username}} перенес сообщение в {{link}}"
-      total_flagged: "total flagged posts"
+      total_flagged: "всего сообщений с жалобами"
 
     image_selector:
       title: "Добавить изображение"
@@ -398,7 +398,7 @@ en:
 
     rank_details:
       toggle: скрыть/показать topic rank details
-      show: show topic rank details
+      show: показать topic rank details
       title: Topic Rank Details
 
     topic:
@@ -558,14 +558,14 @@ en:
           other: "Вы отметили <b>{{count}}</b> сообщений."
 
     post:
-      reply: "Replying to {{link}} by {{replyAvatar}} {{username}}"
+      reply: "Ответ на {{link}} от {{replyAvatar}} {{username}}"
       reply_topic: "Ответить на {{link}}"
       quote_reply: "процитировать ответ"
-      edit: "Editing {{link}} by {{replyAvatar}} {{username}}"
+      edit: "Редактирование {{link}} от {{replyAvatar}} {{username}}"
       post_number: "сообщение {{number}}"
       in_reply_to: "в ответ на"
       reply_as_new_topic: "Ответить новой темой"
-      continue_discussion: "Continuing the discussion from {{postLink}}:"
+      continue_discussion: "Продолжить обсуждение с {{postLink}}:"
       follow_quote: "перейти к процитированному сообщению"
       deleted_by_author: "(сообщение удалено автором)"
       expand_collapse: "развернуть/свернуть"
@@ -617,18 +617,18 @@ en:
           inappropriate: "Отозвать жалобу"
           bookmark: "Удалить из избранного"
           like: "Больше не нравится"
-          vote: "Undo vote"
+          vote: "Отозвать голос"
         people:
-          off_topic: "{{icons}} marked this as off-topic"
-          spam: "{{icons}} marked this as spam"
-          inappropriate: "{{icons}} marked this as inappropriate"
-          notify_moderators: "{{icons}} notified moderators"
-          notify_moderators_with_url: "{{icons}} <a href='{{postUrl}}'>notified moderators</a>"
-          notify_user: "{{icons}} started a private conversation"
-          notify_user_with_url: "{{icons}} started a <a href='{{postUrl}}'>private conversation</a>"
-          bookmark: "{{icons}} bookmarked this"
-          like: "{{icons}} liked this"
-          vote: "{{icons}} voted for this"
+          off_topic: "{{icons}} отметили это как off-topic"
+          spam: "{{icons}} отметили это как spam"
+          inappropriate: "{{icons}} отметили это как неуместное"
+          notify_moderators: "{{icons}} пожаловались модераторам"
+          notify_moderators_with_url: "{{icons}} <a href='{{postUrl}}'>пожаловались модераторам</a>"
+          notify_user: "{{icons}} начали частную беседу"
+          notify_user_with_url: "{{icons}} начали <a href='{{postUrl}}'>частную беседу</a>"
+          bookmark: "{{icons}} добавили в список избранного"
+          like: "{{icons}} выразили этому симпатию"
+          vote: "{{icons}} проголосовали за это"
         by_you:
           off_topic: "Отмечена как off-topic"
           spam: "Отмечена как spam"
@@ -755,12 +755,12 @@ en:
 
     posts: "Сообщения"
     posts_long: "{{number}} сообщений в теме"
-    original_post: "Original Post"
+    original_post: "Начальное сообщение"
     views: "Просмотров"
     replies: "Ответов"
     views_long: "тема просмотрена {{number}} раз"
     activity: "Активность"
-    likes: "Likes"
+    likes: "Симпатий"
     top_contributors: "Участников"
     category_title: "Категория"
     history: "История"
@@ -895,7 +895,7 @@ en:
         sent_test: "отправлено!"
 
       impersonate:
-        title: "Проверить права пользователя"
+        title: "Impersonate User"
         username_or_email: "Имя пользователя или адрес электронной почты"
         help: "Use this tool to impersonate a user account for debugging purposes."
         not_found: "Пользователь не найден."
@@ -926,16 +926,16 @@ en:
           moderators: 'Модераторы'
 
       user:
-        ban_failed: "Something went wrong banning this user {{error}}"
-        unban_failed: "Something went wrong unbanning this user {{error}}"
-        ban_duration: "How long would you like to ban the user for? (days)"
+        ban_failed: "Ошибка при наложении бана {{error}}"
+        unban_failed: "Ошибка при снятии бана {{error}}"
+        ban_duration: "Насколько вы хотите забанить пользователя? (days)"
         delete_all_posts: "Удалить все сообщения"
         ban: "Забанить"
         unban: "Разбанить"
         banned: "Banned?"
-        moderator: "Moderator?"
-        admin: "Admin?"
-        show_admin_profile: "Admin"
+        moderator: "Модератор?"
+        admin: "Администратор?"
+        show_admin_profile: "Администратор"
         refresh_browsers: "Force browser refresh"
         show_public_profile: "Show Public Profile"
         impersonate: 'Impersonate'
@@ -946,11 +946,11 @@ en:
         reputation: Репутация
         permissions: Права
         activity: Активность
-        like_count: Likes Received
-        private_topics_count: Private Topics Count
+        like_count: Получено симпатий
+        private_topics_count: Счетчик частных тем
         posts_read_count: Прочитано сообщений
         post_count: Создано сообщений
-        topics_entered: Topics Entered
+        topics_entered: Просмотрено тем
         flags_given_count: Отправил жалоб
         flags_received_count: Получил жалоб
         approve: 'Одобрить'
