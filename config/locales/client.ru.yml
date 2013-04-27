@@ -559,14 +559,14 @@ en:
 
     post:
       reply: "Replying to {{link}} by {{replyAvatar}} {{username}}"
-      reply_topic: "Reply to {{link}}"
-      quote_reply: "quote reply"
+      reply_topic: "Ответить на {{link}}"
+      quote_reply: "процитировать ответ"
       edit: "Editing {{link}} by {{replyAvatar}} {{username}}"
-      post_number: "post {{number}}"
-      in_reply_to: "in reply to"
+      post_number: "сообщение {{number}}"
+      in_reply_to: "в ответ на"
       reply_as_new_topic: "Ответить новой темой"
       continue_discussion: "Continuing the discussion from {{postLink}}:"
-      follow_quote: "go to the quoted post"
+      follow_quote: "перейти к процитированному сообщению"
       deleted_by_author: "(сообщение удалено автором)"
       expand_collapse: "развернуть/свернуть"
 
@@ -591,7 +591,7 @@ en:
         reply: "начать составление ответа на это сообщение"
         like: "мне нравится"
         edit: "изменить сообщение"
-        flag: "flag this post for attention or send a notification about it"
+        flag: "пожаловаться на это сообщение"
         delete: "удалить сообщение"
         undelete: "отменить удаление"
         share: "поделиться ссылкой на сообщение"
@@ -852,10 +852,10 @@ en:
         by: "by"
 
       flags:
-        title: "Flags"
+        title: "Жалоб"
         old: "Old"
         active: "Active"
-        clear: "Clear Flags"
+        clear: "Очистить жалобы"
         clear_title: "dismiss all flags on this post (will unhide hidden posts)"
         delete: "Удалить сообщение"
         delete_title: "удалить сообщение (если сообщение идет первым, то будет удалена вся тема)"
@@ -890,7 +890,7 @@ en:
         sent_at: "Отправлено"
         email_type: "Email Type"
         to_address: "Получатель"
-        test_email_address: "email address to test"
+        test_email_address: "email адрес для проверки"
         send_test: "отправить тестовое сообщение"
         sent_test: "отправлено!"
 
@@ -955,10 +955,10 @@ en:
         flags_received_count: Получено жалоб
         approve: 'Одобрить'
         approved_by: "одобрено"
-        time_read: "Read Time"
+        time_read: "Время чтения"
         delete: "Удалить пользователя"
-        delete_forbidden: "This user can't be deleted because there are posts. Delete all this user's posts first."
-        delete_confirm: "Вы действительно хотите permanently delete this user from the site? Это действие необратимо!"
+        delete_forbidden: "Нельзя удалить этого пользователя, потому что у него есть сообщения. Вначале удалите все его сообщения."
+        delete_confirm: "Вы действительно хотите удалить этого пользователя? Удаление нельзя отменить!"
         deleted: "Пользователь удален."
         delete_failed: "При удалении пользователя возникла ошибка. Для удаления пользователя необходимо прежде удалить все его сообщения."
 
