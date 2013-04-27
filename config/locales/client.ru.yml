@@ -716,12 +716,12 @@ en:
       background_color: "Цвет фона"
       foreground_color: "Цвет переднего плана"
       name_placeholder: "Should be short and succinct."
-      color_placeholder: "Any web color"
+      color_placeholder: "Любой цвет из Веб-палитры"
       delete_confirm: "Вы действительно хотите удалить эту категорию?"
       delete_error: "Произошла ошибка при удалении категории."
       list: "Список категорий"
       no_description: "Отсутствует описание этой категории."
-      change_in_category_topic: "Edit Description"
+      change_in_category_topic: "Изменить описание"
       hotness: "Hotness"
       already_used: 'Цвет уже используется другой категорией'
 
@@ -929,7 +929,7 @@ en:
         ban_failed: "Something went wrong banning this user {{error}}"
         unban_failed: "Something went wrong unbanning this user {{error}}"
         ban_duration: "How long would you like to ban the user for? (days)"
-        delete_all_posts: "Delete all posts"
+        delete_all_posts: "Удалить все сообщения"
         ban: "Забанить"
         unban: "Разбанить"
         banned: "Banned?"
