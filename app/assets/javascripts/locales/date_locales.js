@@ -96,3 +96,6 @@ Date.getLocale('zh-TW').short_no_year = '{yyyy}年{M}月';
 
 // set the current date locale, replace underscore with dash to make zh_CN work
 Date.setLocale(I18n.locale.replace("_","-"));
+
+// fix RU locale
+Date.getLocale('ru').short_no_year = '{d} {Month}';
