@@ -40,7 +40,7 @@ en:
       not_bookmarked: "Сообщение прочитано. Щелкните, чтобы добавить на него закладку."
       last_read: "Последнее прочитанное вами сообщение."
 
-    new_topics_inserted: "{{count}} new topics."
+    new_topics_inserted: "{{count}} новых тем."
     show_new_topics: "Показать."
     preview: "предпросмотр"
     cancel: "отмена"
@@ -56,7 +56,7 @@ en:
       profile: Профиль
       title: "Пользователь"
       mute: Mute
-      edit: Edit Preferences
+      edit: Изменить настройки
       download_archive: "загрузить архив своих сообщений"
       private_message: "Личное сообщение"
       private_messages: "Сообщения"
@@ -137,7 +137,7 @@ en:
 
       new_topic_duration:
         label: "Считать темы новыми, когда"
-        not_viewed: "Я еще их не видел"
+        not_viewed: "Непросмотренные мной"
         last_here: "они были размещены после моего последнего посещения"
         after_n_days:
           one: "они были размещены за последний день"
@@ -169,7 +169,7 @@ en:
         rescind: "Отозвать приглашение"
         rescinded: "Приглашение отозвано"
         time_read: "Время чтения"
-        days_visited: "Days Visited"
+        days_visited: "Дней посещения"
         account_age_days: "Дней с момента регистрации"
 
       password:
@@ -300,8 +300,8 @@ en:
       saved: "Сохранено!"
       saved_draft: "You have a post draft in progress. Click anywhere in this box to resume editing."
       uploading: "Загрузка..."
-      show_preview: 'show preview &raquo;'
-      hide_preview: '&laquo; hide preview'
+      show_preview: 'показать предпросмотр &raquo;'
+      hide_preview: '&laquo; скрыть предпросмотр'
 
       quote_post_title: "Процитировать все сообщение"
       bold_title: "Выделение жирным"
@@ -320,7 +320,7 @@ en:
       image_description: "введите здесь описание изображения"
       image_dialog_title: "Вставка изображения"
       image_optional_text: "необязательное название"
-      image_hosting_hint: "Need <a href='http://www.google.com/search?q=free+image+hosting' target='_blank'>free image hosting?</a>"
+      image_hosting_hint: "Нужен <a href='http://www.google.com/search?q=free+image+hosting' target='_blank'>бесплатный хостинг изображений?</a>"
       olist_title: "Нумерованный список"
       ulist_title: "Маркер списка"
       list_item: "Элемент списка"
@@ -383,13 +383,13 @@ en:
         new: "Нет непрочитанных тем."
         read: "Вы еще ни прочитали ни одной темы."
         posted: "Вы еще ни разу не принимали участие в обсуждении тем."
-        latest: "There are no latest topics. That's sad."
+        latest: "Свежих тем нет. Создайте свою."
         hot: "Популярных тем больше нет."
         category: "В категории {{category}} отсутствуют темы."
       bottom:
-        latest: "There are no more latest topics to read."
+        latest: "Свежих тем нет."
         hot: "Популярных тем больше нет."
-        posted: "There are no more posted topics to read."
+        posted: "Больше нет опубликованных тем."
         read: "Прочитанных тем больше нет."
         new: "Больше новых тем нет."
         unread: "Больше непрочитанных тем нет."
@@ -420,8 +420,8 @@ en:
       not_found:
         title: "Тема не найдена"
         description: "К сожалению, запрошенная тема не найдена. Возможно, она была удалена модератором."
-      unread_posts: "you have {{unread}} unread old posts in this topic"
-      new_posts: "there are {{new_posts}} new posts in this topic since you last read it"
+      unread_posts: "имеется {{unread}} непрочитанных ранее сообщений в этой теме"
+      new_posts: "имеется {{new_posts}} новый сообщений в этой теме"
 
       likes:
         one: "эта тема нравится одному участнику"
@@ -455,10 +455,10 @@ en:
           "3_1": 'Вы будете получать уведомления, потому что вы создали эту тему.'
           "3": 'Вы будете получать уведомления, потому что вы наблюдаете за этой темой.'
           "2_4": 'Вы будете получать уведомления, потому что вы ответили в этой теме.'
-          "2_2": 'You will receive notifications because you are tracking this topic.'
-          "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
-          "1": 'You will be notified only if someone mentions your @name or replies to your post.'
-          "1_2": 'You will be notified only if someone mentions your @name or replies to your post.'
+          "2_2": 'Вы будете получать уведомления, потому что вы отслеживаете эту тему.'
+          "2": 'Вы будете получать уведомления, потому что вы <a href="/users/{{username}}/preferences">читали эту тему</a>.'
+          "1": 'Вы получите уведомление только, если кто-нибудь упоменет вас по @name или ответит на ваше сообщение.'
+          "1_2": 'Вы получите уведомление только, если кто-нибудь упоменет вас по @name или ответит на ваше сообщение.'
           "0": 'Вы не получаете уведомления по этой теме.'
           "0_2": 'Вы не получаете уведомления по этой теме.'
         watching:
@@ -582,10 +582,10 @@ en:
         upload_too_many_images: "К сожалению, за один раз можно загрузить только одно изображение."
         only_images_are_supported: "К сожалению, можно загружать только изображения."
 
-      abandon: "Вы действительно хотите to abandon your post?"
+      abandon: "Вы действительно хотите покинуть ваше сообщение?"
 
       archetypes:
-        save: 'Save Options'
+        save: 'Параметры сохранения'
 
       controls:
         reply: "начать составление ответа на это сообщение"
@@ -601,7 +601,7 @@ en:
       actions:
         flag: 'Flag'
         clear_flags:
-          one: "Clear flag"
+          one: "Очистить жалобу"
           other: "Очистить жалобы"
         it_too:
           off_topic: "Пожаловаться"
@@ -707,7 +707,7 @@ en:
       delete: 'Удалить категорию'
       create: 'Создать категорию'
       save: 'Сохранить категорию'
-      creation_error: There has been an error during the creation of the category.
+      creation_error: При создании новой категории возникла ошибка.
       more_posts: "просмотреть все {{posts}}..."
       name: "Название категории"
       description: "Описание"
@@ -770,8 +770,8 @@ en:
 
     filters:
       latest:
-        title: "Latest"
-        help: "the most recent topics"
+        title: "Последнее"
+        help: "самые последние темы"
       hot:
         title: "Популярное"
         help: "подборка популярных тем"
@@ -787,10 +787,10 @@ en:
         help: "все темы сгруппированы по категориям"
       unread:
         title:
-          zero: "Unread"
+          zero: "Непрочтённое"
           one: "Unread (1)"
           other: "Unread ({{count}})"
-        help: "tracked topics with unread posts"
+        help: "отслеживаемые темы с непрочитанными сообщениями"
       new:
         title:
           zero: "Новые"
@@ -805,7 +805,7 @@ en:
           zero: "{{categoryName}}"
           one: "{{categoryName}} (1)"
           other: "{{categoryName}} ({{count}})"
-        help: "latest topics in the {{categoryName}} category"
+        help: "последние темы в категории {{categoryName}}"
 
     browser_update: 'К сожалнию, <a href="http://www.discourse.org/faq/#browser">ваш браузер слишком устарел</a> для комфортного просмотра нашего форума. Пожалуйста, <a href="http://browsehappy.com">обновите ваш браузер</a>.'
 
@@ -856,10 +856,10 @@ en:
         old: "Old"
         active: "Active"
         clear: "Очистить жалобы"
-        clear_title: "dismiss all flags on this post (will unhide hidden posts)"
+        clear_title: "отклонить все жалобы на это сообщение (покажет скрытые сообщения)"
         delete: "Удалить сообщение"
         delete_title: "удалить сообщение (если сообщение идет первым, то будет удалена вся тема)"
-        flagged_by: "Flagged by"
+        flagged_by: "Отмечено"
         error: "Что-то пошло не так"
 
       groups:
@@ -903,16 +903,16 @@ en:
 
       users:
         title: 'Пользователи'
-        create: 'Add Admin User'
-        last_emailed: "Last Emailed"
+        create: 'Добавить администратора'
+        last_emailed: "Последнее письмо"
         not_found: "К сожалению, этот пользователь не зарегистрирован."
-        new: "New"
+        new: "Новый"
         active: "Active"
         pending: "Pending"
         approved: "Approved?"
         approved_selected:
-          one: "approve user"
-          other: "approve users ({{count}})"
+          one: "одобрить пользователя"
+          other: "одобрить пользователей ({{count}})"
         titles:
           active: 'Активные пользователи'
           new: 'Новые пользователи'
@@ -951,8 +951,8 @@ en:
         posts_read_count: Прочитано сообщений
         post_count: Создано сообщений
         topics_entered: Topics Entered
-        flags_given_count: Flags Given
-        flags_received_count: Получено жалоб
+        flags_given_count: Отправил жалоб
+        flags_received_count: Получил жалоб
         approve: 'Одобрить'
         approved_by: "одобрено"
         time_read: "Время чтения"
@@ -963,11 +963,11 @@ en:
         delete_failed: "При удалении пользователя возникла ошибка. Для удаления пользователя необходимо прежде удалить все его сообщения."
 
       site_content:
-        none: "Choose a type of content to begin editing."
-        title: 'Site Content'
-        edit: "Edit Site Content"
+        none: "Выберите тип контента, чтобы начать редактирование."
+        title: 'Контент сайта'
+        edit: "Изменить контент сайта"
 
       site_settings:
-        show_overriden: 'Only show overridden'
-        title: 'Site Settings'
+        show_overriden: 'Показывать только переопределенные'
+        title: 'Настройки сайта'
         reset: 'сбросить по умолчанию'
