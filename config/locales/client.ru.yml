@@ -310,7 +310,7 @@ en:
       italic_text: "текст, выделенный курсивом"
       link_title: "Ссылка"
       link_description: "введите описание ссылки"
-      link_dialog_title: "Insert Hyperlink"
+      link_dialog_title: "Вставить ссылку"
       link_optional_text: "необязательное название"
       quote_title: "Цитата"
       quote_text: "Цитата"
@@ -354,7 +354,7 @@ en:
       from_the_web: "С интернета"
       add_image: "Добавить изображение"
       remote_title: "удаленное изображение"
-      remote_tip: "enter address of an image in the form http://example.com/image.jpg"
+      remote_tip: "введите адрес изображения в формате http://example.com/image.jpg"
       local_title: "локальное изображение"
       local_tip: "щелкните, чтобы выбрать изображение с вашего устройства."
       upload: "Загрузить"
@@ -384,16 +384,16 @@ en:
         read: "Вы еще ни прочитали ни одной темы."
         posted: "Вы еще ни разу не принимали участие в обсуждении тем."
         latest: "There are no latest topics. That's sad."
-        hot: "There are no hot topics."
+        hot: "Популярных тем больше нет."
         category: "В категории {{category}} отсутствуют темы."
       bottom:
         latest: "There are no more latest topics to read."
-        hot: "There are no more hot topics to read."
+        hot: "Популярных тем больше нет."
         posted: "There are no more posted topics to read."
-        read: "There are no more read topics to read."
+        read: "Прочитанных тем больше нет."
         new: "Больше новых тем нет."
         unread: "Больше непрочитанных тем нет."
-        favorited: "There are no more favorited topics to read."
+        favorited: "Избранных темы отсутствуют."
         category: "В категории {{category}} нет больше тем."
 
     rank_details:
@@ -402,7 +402,7 @@ en:
       title: Topic Rank Details
 
     topic:
-      create_in: 'Create {{categoryName}} Topic'
+      create_in: 'Создать {{categoryName}} тему'
       create: 'Создать тему'
       create_long: 'Создать новую тему'
       private_message: 'Начать частную беседу'
@@ -412,7 +412,7 @@ en:
       loading_more: "Подгружаю еще темы..."
       loading: 'Загружаю тему...'
       invalid_access:
-        title: "Topic is private"
+        title: "Тема является частной"
         description: "К сожалению, у вас нет прав доступа к этой теме!"
       server_error:
         title: "Не удалось загрузить тему"
@@ -604,19 +604,19 @@ en:
           one: "Clear flag"
           other: "Clear flags"
         it_too:
-          off_topic: "Flag it too"
-          spam: "Flag it too"
-          inappropriate: "Flag it too"
-          custom_flag: "Flag it too"
-          bookmark: "Bookmark it too"
+          off_topic: "Пожаловаться"
+          spam: "Пожаловаться"
+          inappropriate: "Пожаловаться"
+          custom_flag: "Пожаловаться"
+          bookmark: "Добавить в избранное"
           like: "Мне тоже нравится"
-          vote: "Vote for it too"
+          vote: "Проголосовать"
         undo:
-          off_topic: "Undo flag"
-          spam: "Undo flag"
-          inappropriate: "Undo flag"
-          bookmark: "Undo bookmark"
-          like: "Undo like"
+          off_topic: "Отозвать жалобу"
+          spam: "Отозвать жалобу"
+          inappropriate: "Отозвать жалобу"
+          bookmark: "Удалить из избранного"
+          like: "Больше не нравится"
           vote: "Undo vote"
         people:
           off_topic: "{{icons}} marked this as off-topic"
@@ -630,12 +630,12 @@ en:
           like: "{{icons}} liked this"
           vote: "{{icons}} voted for this"
         by_you:
-          off_topic: "You flagged this as off-topic"
-          spam: "You flagged this as spam"
-          inappropriate: "You flagged this as inappropriate"
+          off_topic: "Отмечена как off-topic"
+          spam: "Отмечена как spam"
+          inappropriate: "Отмечена как неуместная"
           notify_moderators: "You flagged this for moderation"
-          notify_user: "You started a private conversation with this user"
-          bookmark: "You bookmarked this post"
+          notify_user: "Вы начали частную беседу с этим пользователем"
+          bookmark: "Сообщение добавлено в избранное"
           like: "Вам это нравится"
           vote: "Вы проголосовали за это сообщение"
         by_you_and_others:
@@ -722,7 +722,7 @@ en:
       list: "Список категорий"
       no_description: "Отсутствует описание этой категории."
       change_in_category_topic: "Изменить описание"
-      hotness: "Hotness"
+      hotness: "Популярность"
       already_used: 'Цвет уже используется другой категорией'
 
     flagging:
@@ -773,14 +773,14 @@ en:
         title: "Latest"
         help: "the most recent topics"
       hot:
-        title: "Hot"
-        help: "a selection of the hottest topics"
+        title: "Популярное"
+        help: "подборка популярных тем"
       favorited:
-        title: "Избранные"
+        title: "Избранное"
         help: "topics you marked as favorites"
       read:
-        title: "Прочитанные"
-        help: "topics you've read, in the order that you last read them"
+        title: "Прочитанное"
+        help: "прочитанные вами темы в обратном хронологическом порядке"
       categories:
         title: "Категории"
         title_in: "Категория - {{categoryName}}"
@@ -807,7 +807,7 @@ en:
           other: "{{categoryName}} ({{count}})"
         help: "latest topics in the {{categoryName}} category"
 
-    browser_update: 'Unfortunately, <a href="http://www.discourse.org/faq/#browser">your browser is too old to work on this Discourse forum</a>. Please <a href="http://browsehappy.com">upgrade your browser</a>.'
+    browser_update: 'К сожалнию, <a href="http://www.discourse.org/faq/#browser">ваш браузер слишком устарел</a> для комфортного просмотра нашего форума. Пожалуйста, <a href="http://browsehappy.com">обновите ваш браузер</a>.'
 
   # This section is exported to the javascript for i18n in the admin section
   admin_js:
@@ -952,7 +952,7 @@ en:
         post_count: Создано сообщений
         topics_entered: Topics Entered
         flags_given_count: Flags Given
-        flags_received_count: Flags Received
+        flags_received_count: Получено жалоб
         approve: 'Одобрить'
         approved_by: "одобрено"
         time_read: "Read Time"
