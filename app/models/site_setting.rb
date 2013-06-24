@@ -150,6 +150,10 @@ class SiteSetting < ActiveRecord::Base
   setting(:facebook_app_id, '')
   setting(:facebook_app_secret, '')
 
+  client_setting(:enable_vkontakte_logins, true)
+  setting(:vkontakte_app_id, '')
+  setting(:vkontakte_app_secret, '')
+
   client_setting(:enable_cas_logins, false)
   setting(:cas_hostname, '')
   setting(:cas_domainname, '')

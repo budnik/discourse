@@ -7,6 +7,9 @@
       {{#if Discourse.SiteSettings.enable_facebook_logins}}
         <button class="btn btn-social facebook" title="{{i18n login.facebook.title}}" {{action "facebookLogin"}}>{{i18n login.facebook.title}}</button>
       {{/if}}
+      {{#if Discourse.SiteSettings.enable_vkontakte_logins}}
+        <button class="btn btn-social vkontakte" title="{{i18n login.vkontakte.title}}" {{action "vkontakteLogin"}}>{{i18n login.vkontakte.title}}</button>
+      {{/if}}
       {{#if Discourse.SiteSettings.enable_cas_logins}}
         <button class="btn btn-social cas" title="{{i18n login.cas.title}}" {{action "casLogin"}}>{{i18n login.cas.title}}</button>
       {{/if}}

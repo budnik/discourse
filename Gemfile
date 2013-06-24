@@ -4,6 +4,7 @@ gem 'active_model_serializers', git: 'https://github.com/rails-api/active_model_
 
 # we had issues with latest, stick to the rev till we figure this out
 # PR that makes it all hang together welcome
+
 gem 'ember-rails'
 gem 'ember-source', '1.0.0.rc5' # or the version you need
 gem 'handlebars-source', '1.0.0.rc4' # or the version you need
@@ -46,6 +47,7 @@ gem 'openid-redis-store'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-github'
+gem 'omniauth-vkontakte'
 gem 'omniauth-browserid', git: 'https://github.com/callahad/omniauth-browserid.git', branch: 'observer_api'
 gem 'omniauth-cas'
 gem 'oj'

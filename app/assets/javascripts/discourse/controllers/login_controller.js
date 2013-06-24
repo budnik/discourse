@@ -23,6 +23,7 @@ Discourse.LoginController = Discourse.Controller.extend(Discourse.ModalFunctiona
   hasAtLeastOneLoginButton: function() {
     return Discourse.SiteSettings.enable_google_logins ||
            Discourse.SiteSettings.enable_facebook_logins ||
+           Discourse.SiteSettings.enable_vkontakte_logins ||
            Discourse.SiteSettings.enable_cas_logins ||
            Discourse.SiteSettings.enable_twitter_logins ||
            Discourse.SiteSettings.enable_yahoo_logins ||
@@ -93,6 +94,13 @@ Discourse.LoginController = Discourse.Controller.extend(Discourse.ModalFunctiona
     var left = this.get('lastX') - 400;
     var top = this.get('lastY') - 200;
     return window.open(Discourse.getURL("/auth/facebook"), "_blank", "menubar=no,status=no,height=400,width=800,left=" + left + ",top=" + top);
+  },
+
+  vkontakteLogin: function() {
+    this.set('authenticate', 'vkontakte');
+    var left = this.get('lastX') - 400;
+    var top = this.get('lastY') - 200;
+    return window.open(Discourse.getURL("/auth/vkontakte"), "_blank", "menubar=no,status=no,height=400,width=800,left=" + left + ",top=" + top);
   },
 
   casLogin: function() {
